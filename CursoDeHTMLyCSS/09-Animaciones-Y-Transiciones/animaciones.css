@@ -1,0 +1,78 @@
+.abuelo {
+    display: flex;
+
+}
+
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 255, 170);
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    transition: transform 1s linear 1s;
+}
+
+.padre:hover .hijo {
+    transform: translateX(100%);
+    background-color: blueviolet;
+}
+
+.padre2 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo2 {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+}
+
+.padre2:hover .hijo2 {
+    animation: traslacion 3s infinite ;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: brown;
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        background-color: rgb(42, 165, 106);
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        background-color: rgb(75, 42, 165);
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        background-color: rgb(97, 45, 45);
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        background-color: green;
+        transform: translateX(0%) translateY(0%);
+    }
+}
+
+
+.padre:hover {
+        animation: rotate-center 1s ease-in-out both;
+}
+
+@keyframes rotate-center {
+    0% {
+            transform: rotate(0);
+    }
+    100% {
+            transform: rotate(360deg);
+    }
+    }
