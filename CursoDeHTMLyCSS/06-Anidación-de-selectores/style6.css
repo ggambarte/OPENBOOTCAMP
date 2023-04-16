@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+button {
+width: 400px;
+height: 200px;
+font-size: xx-large;
+}
+
+button::before {
+    content: "Pasa por encimaaaa";
+}
+
+.button:hover{
+    background-color: green;
+    color: white;
+ }
+
+#button-id:hover::before {
+    content: "Hecho";
+}
