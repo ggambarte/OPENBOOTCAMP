@@ -1,0 +1,48 @@
+.contenedor1 {
+    margin: 40px;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: yellow;
+    height: 5rem;
+}
+
+.item {
+    background-color: salmon;
+    padding: 1rem;
+}
+
+.contenedor2 {
+    margin: 40px;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.contenedor3 {
+    margin: 40px;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: yellow;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor4 {
+    margin: 40px;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: yellow;
+    height: 5rem;
+
+    /* EJE PRINCIPAL */
+    justify-content: space-between;
+    /* EJE SECUNDARIO */
+    align-items: center;
+}
+

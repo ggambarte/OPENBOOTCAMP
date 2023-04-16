@@ -1,0 +1,41 @@
+.contenedor1 {
+    margin: 20px;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+}
+
+.item { 
+    background-color: rgb(144, 203, 235);
+    padding: 0.25re;
+    font-size: 2rem;
+    border: solid 1px blue;
+}
+
+.contenedor2 {
+    margin: 20px;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(4,auto);
+    background-color: lightgreen;
+}
+
+.contenedor3 {
+    margin: 20px;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 20px 3rem 25vw;
+    background-color: rgb(72, 55, 156);
+}
+
+.contenedor4 {
+    margin: 20px;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 2fr 1fr 3fr;
+
+    grid-template-rows: 1fr 3fr 2fr;
+
+    background-color: rgb(55, 156, 84);
+}
